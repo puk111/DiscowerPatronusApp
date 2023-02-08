@@ -1,0 +1,23 @@
+.card {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  z-index: 10;
+  transform: translateX(-50%);
+  transition: opacity 5s ease-in-out,
+    transform 4s cubic-bezier(0.86, 0.01, 0.68, 1.01);
+  opacity: 1;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: white;
+  text-align: center;
+  @media (min-width: 576px) {
+    font-size: 48px;
+  }
+}
+
+.animating {
+  opacity: 0;
+  transform: translateY(-500%) translateX(-50%);
+}
