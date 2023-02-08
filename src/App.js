@@ -29,10 +29,10 @@ const arr = [
   {
     id: 3,
     img: "/images/mountain_or_see.png",
-    question: "mountain or see",
+    question: "mountain or sea",
     answers: [
       { answer: "mountain", pkt: 1 },
-      { answer: "see", pkt: 2 },
+      { answer: "sea", pkt: 2 },
     ],
   },
   {
